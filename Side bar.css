@@ -1,0 +1,31 @@
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  width: 72px;
+}
+.icons-div {
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.icons-div:hover{
+  background-color: lightgray;
+}
+.icon-img {
+  height: 24px;
+  width: 24px;
+  margin-bottom: 5px;
+}
+.text-img {
+  font-size: 10px;
+  font-family: Roboto, Arial;
+}
